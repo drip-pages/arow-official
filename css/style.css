@@ -109,3 +109,67 @@ iframe#movieArea {
   width: 100% !important;
   height: 100% !important;
 }
+.term-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.term-list {
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  padding-inline-start: 2em;
+}
+ul.term-list2 {
+  padding-left: 1.7em;
+  text-indent: -1.7em;
+  }
+ul.term-list2 li {
+  list-style-type:none;
+  list-style-position:inside;
+  padding-inline-start: 0;
+  counter-increment: cnt;
+}
+ul.term-list2 li:before{
+  display: marker;
+  content: "(" counter(cnt) ") ";
+}
+ul.term-list3  {
+    position: relative;
+    margin:0 0 0 0.6em;
+    padding:0
+}
+ 
+ul.term-list3 li  {
+    list-style: none;
+    margin:0;
+    padding-left:1.2em;
+    list-style-position:inside;
+    counter-increment: unset;
+    text-indent: initial;
+}
+ul.term-list3 li:before{
+  display: marker;
+  content: "";
+}
+ul.term-list3 li span {
+    position: absolute;
+    left:0;
+    margin:0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.mb-5 {
+  margin-bottom: 3rem;
+}
