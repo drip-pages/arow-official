@@ -173,3 +173,13 @@ ul.term-list3 li span {
 .mb-5 {
   margin-bottom: 3rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.BtnStore {
+  width: 45%;
+}
